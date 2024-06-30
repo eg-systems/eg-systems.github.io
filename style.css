@@ -196,7 +196,8 @@ body{
     font-size: 18px;
     margin-bottom: 30px;
 }
-.services-section, .why-choose-section, .footer-section, .success-stories, .partner{
+.services-section, .why-choose-section, .footer-section, .success-stories, .partner
+, .contact{
     padding: 53px 0;
     padding-left: 9px;
     padding-right: 9px;
@@ -342,6 +343,37 @@ body{
 /* Start Partner */
 
 /* End Partner */
+
+
+/* Start Contact us */
+
+.contact{
+    margin-top: 150px !important;
+
+}
+.submit-btn{
+    margin-top: 20px;
+    background-color: #f28f0d;
+    border: none;
+    color: #241c0f;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.submit-btn:hover {
+    background-color: #e07d0a;
+    color: #fff;
+}
+.contact-info{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.contact-info i, .contact-title{
+    margin: 10px;
+}
+
+/* End contact us */
+
 
 
 /* Start Footer */
