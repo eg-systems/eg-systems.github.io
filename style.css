@@ -27,12 +27,12 @@ body{
     font-size: 20px;
 }
 .dropdown-menu .dropdown-item:hover{
-    background-color: #241c0f;
+    background-color: #f28f0d;
     font-size: 20px;
     color: #ffffff;
 }
 .nav-item .nav-link:hover{
-    color: gold;
+    color: #f28f0d;
 }
 
 /* End Navbar */
@@ -170,7 +170,6 @@ body{
         text-decoration: none;
         display: inline-block;
         position: relative;
-        top: 40px;
         margin-top: -10px;
     }
     .img-fluid {
@@ -453,7 +452,7 @@ body{
 
 .contact-main{
     margin-top: 120px !important;
-    background-image: url('images/bg\ contact.jpeg');
+    background-image: url('images/bg\ contact2.jpeg');
     height: 300px;
     border-radius: 25px !important;
     opacity: 0.5;
