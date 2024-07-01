@@ -244,6 +244,33 @@ body{
 }
 /* End Services */
 
+/* Start Why Choose US */
+
+.why-choose-card{
+    height: 400px;
+    max-height: 400px;
+}
+.choose-img{
+    width: 100%;
+    border-radius: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+@media (max-width: 400px) {
+    .why-choose-card{
+        max-height: 333px;
+    }
+}
+
+.col-md-6{
+    padding: 10px;
+}
+
+
+
+
+/* End Why Choose US */
+
 
 /* Start Featured Success Stories */
 
@@ -390,8 +417,6 @@ body{
 .carousel-dark .carousel-indicators [data-bs-target] {
     background-color: #fff;
 }
-
-
 
 .carousel-dark .carousel-control-next-icon,
 .carousel-dark .carousel-control-prev-icon {
