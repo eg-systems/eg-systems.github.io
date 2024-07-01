@@ -27,12 +27,12 @@ body{
     font-size: 20px;
 }
 .dropdown-menu .dropdown-item:hover{
-    background-color: #241c0f;
+    background-color: #f28f0d;
     font-size: 20px;
     color: #ffffff;
 }
 .nav-item .nav-link:hover{
-    color: gold;
+    color: #f28f0d;
 }
 
 /* End Navbar */
@@ -170,7 +170,6 @@ body{
         text-decoration: none;
         display: inline-block;
         position: relative;
-        top: 40px;
         margin-top: -10px;
     }
     .img-fluid {
@@ -243,6 +242,30 @@ body{
     }
 }
 /* End Services */
+
+/* Start Why Choose US */
+
+.why-choose-card{
+    height: 400px;
+    max-height: 400px;
+}
+.choose-img{
+    width: 100%;
+    border-radius: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+@media (max-width: 400px) {
+    .why-choose-card{
+        max-height: 333px;
+    }
+}
+
+.col-md-6{
+    padding: 10px;
+}
+
+/* End Why Choose US */
 
 
 /* Start Featured Success Stories */
@@ -341,17 +364,111 @@ body{
 
 
 /* Start Partner */
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+}
+
+
+@media (max-width: 1000px) {
+    .carousel-inner{
+        position: relative;
+        width: 100%;
+        height: 585px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .carousel-inner{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .carousel-inner{
+        position: relative;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
+    background-image: none;
+    background-color: #000000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-dark .carousel-control-next-icon::after,
+.carousel-dark .carousel-control-prev-icon::after {
+    content: '';
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.carousel-dark .carousel-control-next-icon::after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.carousel-dark .carousel-control-prev-icon::after {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
 
 /* End Partner */
 
 
 /* Start Contact us */
 
-.contact{
-    margin-top: 150px !important;
-
+.contact-main{
+    margin-top: 120px !important;
+    background-image: url('images/bg\ contact2.jpeg');
+    height: 300px;
+    border-radius: 25px !important;
+    opacity: 0.5;
+    /* margin: 10px 10px 10px 10px !important; */
 }
-.submit-btn{
+.contact-content {
+    position: absolute;
+    top: 275px;
+    left: 300px;
+}
+
+.contact {
+    margin-top: 50px !important;
+}
+
+.submit-btn {
     margin-top: 20px;
     background-color: #f28f0d;
     border: none;
@@ -360,16 +477,143 @@ body{
     font-size: 1rem;
     border-radius: 5px;
 }
+
 .submit-btn:hover {
     background-color: #e07d0a;
     color: #fff;
 }
-.contact-info{
+
+.contact-info {
     margin-top: 0;
     margin-bottom: 1rem;
 }
-.contact-info i, .contact-title{
+
+.contact-info i, .contact-title {
     margin: 10px;
+}
+
+.contact-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.contact-img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.form-control{
+    font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+    .contact{
+        margin-top: 50px !important;
+    }
+}
+
+
+@media (max-width: 500px){
+    .contact{
+        margin-top: 50px !important;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .img-col {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .info-col {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .form-col {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 991px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .img-col {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .info-col {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .form-col {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .img-col {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 75% !important;
+        height: 100% !important;
+    }
+    
+    .info-col {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .form-col {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+}
+
+@media (max-width: 1400px){
+    .contact-content {
+        position: absolute;
+        top: 275px;
+        left: 162px;
+    }
+}
+
+@media (max-width: 700px){
+    .contact-content {
+        position: absolute;
+        top: 275px;
+        left: 90px;
+    }
+}
+
+@media (max-width: 500px){
+    .contact-content {
+        position: absolute;
+        top: 275px;
+        left: 30px;
+    }
+}
+@media (max-width: 400px){
+    .contact-content {
+        position: absolute;
+        top: 275px;
+        left: 20px;
+    }
 }
 
 /* End contact us */
