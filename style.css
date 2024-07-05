@@ -680,6 +680,21 @@ body{
 /* End about-us */
 
 
+
+/* Start Success Stories */
+
+.success-main{
+    margin-top: 120px !important;
+    background-image: url('images/success\ panner.jpg');
+    height: 300px;
+    border-radius: 25px !important;
+}
+
+.card-body{
+    background-color: #241c0f;
+}
+/* End Success Stories */
+
 /* Start Footer */
 
 .footer-section {
