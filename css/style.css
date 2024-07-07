@@ -260,18 +260,26 @@ body{
 /* Start Why Choose US */
 
 .why-choose-card{
-    height: 400px;
-    max-height: 400px;
+    height: 500px;
+    max-height: 500px;
 }
 .choose-img{
     width: 100%;
+    height: 70% !important;
     border-radius: 25px !important;
     margin-bottom: 25px !important;
 }
 
 @media (max-width: 400px) {
+    .choose-img{
+        width: 100%;
+        height: 50% !important;
+        border-radius: 25px !important;
+        margin-bottom: 25px !important;
+    }
     .why-choose-card{
-        max-height: 333px;
+        height: 420px;
+        max-height: 420px;
     }
 }
 
