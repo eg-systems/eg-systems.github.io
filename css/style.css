@@ -756,10 +756,10 @@ body{
     height: 90% !important;
     width: 45% !important;
 }
-.success-story-header, .success-story-disc{
+.success-story-header, .success-story-disc, .about-header{
     padding-bottom: 10px !important;
 }
-.success-story-header{
+.success-story-header, .about-header{
     color: #f28f0d;
     font-size: 32px !important;
 }
