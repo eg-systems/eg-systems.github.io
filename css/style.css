@@ -210,7 +210,7 @@ body{
     margin-bottom: 30px;
 }
 .services-section, .why-choose-section, .footer-section, .success-stories, .partner
-, .contact, .success-stories{
+, .contact, .success-stories, .tech{
     padding: 53px 0;
     padding-left: 9px;
     padding-right: 9px;
@@ -807,9 +807,27 @@ body{
     color: #f28f0d;
     font-size: 32px !important;
 }
-/* Start Single Success Story */
+/* End Single Success Story */
 
 
+/* Start Tech Slider */
+.tech-title {
+    color: #f28f0d;
+    font-size: 32px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+}
+.tech-img {
+    display: block;
+    margin: 10px 10px;
+    max-width: 90%;
+    height: auto;
+}
+.fa-brands{
+   font-size: 150px !important;
+}
+
+/* End Tech Slider */
 
 
 /* Start Footer */
