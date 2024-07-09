@@ -839,17 +839,17 @@ i{
     height: 55px !important;
 }
 
-.service-title{
+.service-title, .success-story-title{
     color: #f28f0d;
     font-size: 35px !important;
 }
 
-.service-header{
+.service-header, .success-story-header{
     color: #f28f0d;
     font-size: 28px !important;
 }
 
-.service-paragraph{
+.service-paragraph, .success-story-disc{
     text-align: justify;
     color: #ccb08f;
     font-size: 17px !important;
