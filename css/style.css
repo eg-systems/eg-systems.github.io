@@ -840,7 +840,7 @@ body{
     text-align: center;
 }
 .tech-img {
-    max-width: 80%;
+    max-width: 70%;
     height: 100%;
 }
 i{
@@ -878,7 +878,7 @@ i{
 }
 @media (max-width: 900px) {
     .tech-img {
-        max-width: 70%;
+        max-width: 37%;
         height: 100%;
     }
     #django-icon{
@@ -886,16 +886,10 @@ i{
     }
 }
 
-@media (max-width: 768px) {
-    .tech-panner {
-        width: 100% !important;
-        height: 250px !important;
-    }
-}
 
 @media (max-width: 400px) {
     .tech-img {
-        max-width: 80%;
+        max-width: 50%;
         height: 100%;
     }
 
