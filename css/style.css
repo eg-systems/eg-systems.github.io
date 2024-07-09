@@ -683,6 +683,10 @@ body{
     }
 }
 
+.contact-icons{
+    font-size: 35px !important;
+}
+
 /* End contact us */
 
 
@@ -911,6 +915,17 @@ i{
     background-color: #e07d0a;
     color: #fff;
 }
+
+.contacts{
+    padding-top: 20px !important;
+}
+
+.contacts-icons{
+    padding: 20px !important;
+    font-size: 35px !important;
+}
+
+
 
 /* End Footer */
 
