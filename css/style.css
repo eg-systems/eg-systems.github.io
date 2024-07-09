@@ -803,7 +803,7 @@ body{
 .success-story-header, .success-story-disc, .about-header, .service-title{
     padding-bottom: 10px !important;
 }
-.success-story-header, .about-header, .service-title{
+.success-story-header, .about-header{
     color: #f28f0d;
     font-size: 32px !important;
 }
@@ -839,13 +839,20 @@ i{
     height: 55px !important;
 }
 
+.service-title{
+    color: #f28f0d;
+    font-size: 35px !important;
+}
+
 .service-header{
     color: #f28f0d;
-    font-size: 30px !important;
+    font-size: 28px !important;
 }
 
 .service-paragraph{
     text-align: justify;
+    color: #ccb08f;
+    font-size: 17px !important;
 }
 @media (max-width: 900px) {
     .tech-img {
