@@ -46,8 +46,12 @@ body{
         height: 50px;
     }
 }
-
-
+.home-icons{
+    font-size: 25px !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #f28f0d;
+}
 /* End Navbar */
 
 
@@ -204,6 +208,9 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
+}
+.services-disc{
+    color: #ccb08f;
 }
 .services .container p {
     font-size: 18px;
@@ -393,6 +400,7 @@ body{
 
 .project-details h2 {
     margin-bottom: 10px;
+    color: #f28f0d;
 }
 
 .project-description {
