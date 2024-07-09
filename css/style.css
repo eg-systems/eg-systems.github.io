@@ -584,11 +584,12 @@ body{
 
 .contact-info {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .contact-info i, .contact-title {
     margin: 10px;
+    color: #f28f0d;
 }
 
 .contact-grid {
@@ -685,6 +686,15 @@ body{
 
 .contact-icons{
     font-size: 35px !important;
+    margin-right: 10px !important;
+}
+
+.contact-location-icons{
+    font-size: 35px !important;
+    margin-right: 16px !important;
+}
+.contact-txt{
+    color: #ccb08f;
 }
 
 /* End contact us */
