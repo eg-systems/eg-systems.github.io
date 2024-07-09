@@ -46,8 +46,12 @@ body{
         height: 50px;
     }
 }
-
-
+.home-icons{
+    font-size: 25px !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #f28f0d;
+}
 /* End Navbar */
 
 
@@ -205,12 +209,15 @@ body{
     height: 100%;
     text-align: center;
 }
+.services-disc{
+    color: #ccb08f;
+}
 .services .container p {
     font-size: 18px;
     margin-bottom: 30px;
 }
 .services-section, .why-choose-section, .footer-section, .success-stories, .partner
-, .contact, .success-stories{
+, .contact, .success-stories, .tech{
     padding: 53px 0;
     padding-left: 9px;
     padding-right: 9px;
@@ -393,6 +400,7 @@ body{
 
 .project-details h2 {
     margin-bottom: 10px;
+    color: #f28f0d;
 }
 
 .project-description {
@@ -675,6 +683,10 @@ body{
     }
 }
 
+.contact-icons{
+    font-size: 35px !important;
+}
+
 /* End contact us */
 
 
@@ -800,16 +812,88 @@ body{
     height: 90% !important;
     width: 45% !important;
 }
-.success-story-header, .success-story-disc, .about-header{
+.success-story-header, .success-story-disc, .about-header, .service-title{
     padding-bottom: 10px !important;
 }
 .success-story-header, .about-header{
     color: #f28f0d;
     font-size: 32px !important;
 }
-/* Start Single Success Story */
+/* End Single Success Story */
 
 
+/* Start Tech Slider */
+.tech-title {
+    color: #ffffff;
+    font-size: 40px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+}
+.tech-img {
+    max-width: 80%;
+    height: 100%;
+}
+i{
+   font-size: 70px !important;
+}
+
+.video-edit{
+    font-size: 150px !important;
+}
+
+.tech-panner{
+    width: 50% !important;
+    height: 250px !important;
+}
+
+.flutter-img, .kotlin-img{
+    max-width: 50%;
+    height: 55px !important;
+}
+
+.service-title, .success-story-title{
+    color: #f28f0d;
+    font-size: 35px !important;
+}
+
+.service-header, .success-story-header{
+    color: #f28f0d;
+    font-size: 28px !important;
+}
+
+.service-paragraph, .success-story-disc{
+    text-align: justify;
+    color: #ccb08f;
+    font-size: 17px !important;
+}
+@media (max-width: 900px) {
+    .tech-img {
+        max-width: 70%;
+        height: 100%;
+    }
+    #django-icon{
+        width: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tech-panner {
+        width: 100% !important;
+        height: 250px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .tech-img {
+        max-width: 80%;
+        height: 100%;
+    }
+
+    #django-icon{
+        width: 75px;
+    }
+}
+/* End Tech Slider */
 
 
 /* Start Footer */
@@ -831,6 +915,17 @@ body{
     background-color: #e07d0a;
     color: #fff;
 }
+
+.contacts{
+    padding-top: 20px !important;
+}
+
+.contacts-icons{
+    padding: 20px !important;
+    font-size: 35px !important;
+}
+
+
 
 /* End Footer */
 

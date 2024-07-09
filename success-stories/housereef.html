@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EG Systems | House Reef</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../images/logo-contact.png" type="image/x-icon">
 </head>
@@ -25,27 +26,27 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="../index.html"><i class="fa-solid fa-house home-icons"></i>  Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
+                                <i class="fa-solid fa-users-gear home-icons"></i> Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                <li><a class="dropdown-item" href="#">Web Development</a></li>
-                                <li><a class="dropdown-item" href="#">Mobile Development</a></li>
-                                <li><a class="dropdown-item" href="#">Video Editing</a></li>
-                                <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                                <li><a class="dropdown-item" href="../services/web-development.html"><i class="fa-solid fa-code home-icons"></i> Web Development</a></li>
+                                <li><a class="dropdown-item" href="../services/mobile-development.html"><i class="fa-solid fa-mobile-screen-button home-icons"></i>  Mobile Development</a></li>
+                                <li><a class="dropdown-item" href="../services/video-edit.html"><i class="fa-solid fa-video home-icons"></i> Video Editing</a></li>
+                                <li><a class="dropdown-item" href="../services/digital-marketing.html"><i class="fa-solid fa-chart-line home-icons"></i> Digital Marketing</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../success-stories.html">Success Stories</a>
+                            <a class="nav-link" aria-current="page" href="../success-stories.html"><i class="fa-solid fa-square-check home-icons"></i> Success Stories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../about-us.html">About Us</a>
+                            <a class="nav-link" href="../about-us.html"><i class="fa-solid fa-address-card home-icons"></i> About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../contact-us.html">Contact Us</a>
+                            <a class="nav-link" href="../contact-us.html"><i class="fa-solid fa-envelope-circle-check home-icons"></i> Contact Us</a>
                         </li>
 
                     </ul>
@@ -60,10 +61,10 @@
         <div class="container">
             <div class="row p-2">
                 <div class="d-flex justify-content-center align-items-center col-md-6">
-                    <img src="../images/house reef new logo without BG.png" alt="Image" class="success-story-img w-100">
+                    <img src="../images/house-reef.png" alt="Image" class="success-story-img w-100">
                 </div>
                 <div class="col-md-6 position-relative">
-                    <h2 class="success-story-header">House Reef</h2>
+                    <h2 class="success-story-title">House Reef</h2>
                     <p class="success-story-disc">Leading Provider of Scuba Diving Courses, Snorkeling Adventures, and Trips in The Red Sea. With a focus on safety and quality, They offer unforgettable experiences to explore marine life.</p>
                     <a href="https://www.housereef.ch/" class="btn project-btn" target="_blank">Checkout Project</a>
                 </div>
@@ -96,7 +97,29 @@
     <!-- Start Footer -->
     <div class="container footer-section">
         <h2>Ready to build something great?</h2>
-        <a href="contact-us.html" class="btn footer-button">Get Started</a>
+        <a href="../contact-us.html" class="btn footer-button">Get Started</a>
+        <!-- Start contacts -->
+        <div class="row contacts d-flex justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-3">
+                <div class="contact-card">
+                    <i class="fa-solid fa-location-dot contacts-icons" style="color: #f28f0d;"></i>
+                    <p>Alexandria, Egypt</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="contact-card">
+                    <i class="fa-solid fa-phone contacts-icons" style="color: #f28f0d;"></i>
+                    <p> (+20) 100 4714 948</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope contacts-icons" style="color: #f28f0d;"></i>
+                    <p>info@egsysco.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- End contacts -->
     </div>
     <!-- End Footer -->
 
