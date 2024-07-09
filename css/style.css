@@ -545,7 +545,7 @@ body{
 
 .contact-main {
     margin-top: 120px !important;
-    background-image: url('../images/bg\ contact2.jpeg');
+    background-image: url('../images/contact\ panner.png');
     height: 400px;
     border-radius: 25px !important;
     background-size: cover; 
@@ -584,11 +584,12 @@ body{
 
 .contact-info {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .contact-info i, .contact-title {
     margin: 10px;
+    color: #f28f0d;
 }
 
 .contact-grid {
@@ -685,6 +686,15 @@ body{
 
 .contact-icons{
     font-size: 35px !important;
+    margin-right: 10px !important;
+}
+
+.contact-location-icons{
+    font-size: 35px !important;
+    margin-right: 16px !important;
+}
+.contact-txt{
+    color: #ccb08f;
 }
 
 /* End contact us */
@@ -830,7 +840,7 @@ body{
     text-align: center;
 }
 .tech-img {
-    max-width: 80%;
+    max-width: 70%;
     height: 100%;
 }
 i{
@@ -868,7 +878,7 @@ i{
 }
 @media (max-width: 900px) {
     .tech-img {
-        max-width: 70%;
+        max-width: 37%;
         height: 100%;
     }
     #django-icon{
@@ -876,16 +886,10 @@ i{
     }
 }
 
-@media (max-width: 768px) {
-    .tech-panner {
-        width: 100% !important;
-        height: 250px !important;
-    }
-}
 
 @media (max-width: 400px) {
     .tech-img {
-        max-width: 80%;
+        max-width: 50%;
         height: 100%;
     }
 
