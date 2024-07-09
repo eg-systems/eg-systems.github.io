@@ -800,10 +800,10 @@ body{
     height: 90% !important;
     width: 45% !important;
 }
-.success-story-header, .success-story-disc, .about-header{
+.success-story-header, .success-story-disc, .about-header, .service-title{
     padding-bottom: 10px !important;
 }
-.success-story-header, .about-header{
+.success-story-header, .about-header, .service-title{
     color: #f28f0d;
     font-size: 32px !important;
 }
@@ -812,21 +812,68 @@ body{
 
 /* Start Tech Slider */
 .tech-title {
-    color: #f28f0d;
-    font-size: 32px !important;
+    color: #ffffff;
+    font-size: 40px !important;
     padding-bottom: 20px !important;
     text-align: center;
 }
 .tech-img {
-    display: block;
-    margin: 10px 10px;
-    max-width: 90%;
-    height: auto;
+    max-width: 80%;
+    height: 100%;
 }
-.fa-brands{
-   font-size: 150px !important;
+i{
+   font-size: 70px !important;
 }
 
+.video-edit{
+    font-size: 150px !important;
+}
+
+.tech-panner{
+    width: 50% !important;
+    height: 250px !important;
+}
+
+.flutter-img, .kotlin-img{
+    max-width: 50%;
+    height: 55px !important;
+}
+
+.service-header{
+    color: #f28f0d;
+    font-size: 30px !important;
+}
+
+.service-paragraph{
+    text-align: justify;
+}
+@media (max-width: 900px) {
+    .tech-img {
+        max-width: 70%;
+        height: 100%;
+    }
+    #django-icon{
+        width: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tech-panner {
+        width: 100% !important;
+        height: 250px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .tech-img {
+        max-width: 80%;
+        height: 100%;
+    }
+
+    #django-icon{
+        width: 75px;
+    }
+}
 /* End Tech Slider */
 
 
