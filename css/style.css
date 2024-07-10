@@ -24,9 +24,21 @@ body{
     font-size: 25px;
 }
 .dropdown-menu .dropdown-item{
-    background-color: #ffffff;
+    background-color: #241c0f;
     font-size: 20px;
+    --bs-dropdown-bg:#241c0f;
+    color: #ffffff;
+    margin: #241c0f;
 }
+.dropdown-menu {
+    --bs-dropdown-bg: #241c0f;
+    background-color: #f28f0d !important;
+    margin: 15px !important;
+    --bs-dropdown-border-color: black;
+
+}
+
+
 .dropdown-menu .dropdown-item:hover{
     background-color: #f28f0d;
     font-size: 20px;
@@ -36,24 +48,57 @@ body{
     color: #f28f0d;
 }
 .navbar-brand img{
-    width: 300px;
+    width: 100%;
     height: 60px;
 }
 
 @media (max-width: 411px) {
     .navbar-brand img{
-        width: 220px;
+        width: 250px;
         height: 50px;
     }
 }
-.home-icons{
+.home-icons {
     font-size: 25px !important;
+    margin-right: 10px;
+}
+.home-icon{
+    margin-right: 12px !important;
+}
+.about-icon{
+    margin-right: 15px !important;
+}
+.mobile-icon{
+    margin-right: 22px !important;
+}
+
+.video-icon{
+    margin-right: 13px !important;
+}
+.digital-icon{
+    margin-right: 15px !important;
+}
+
+.success-icon{
+    font-size: 30px !important;
+    margin-right: 15px !important;
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #f28f0d;
 }
 /* End Navbar */
 
+/* Start Edit hr */
+
+hr{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 40%;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(242, 143, 13, 0.75), rgba(255, 255, 255, 0));
+}
+/* End Edit hr */
 
 /* Start Main Side */
 .main{
@@ -182,7 +227,6 @@ body{
         background-color: #f28f0d;
         color: #fff;
         border: none;
-        font-size: small;
         padding: 10px 20px;
         border-radius: 5px;
         text-decoration: none;
@@ -822,9 +866,24 @@ body{
     height: 90% !important;
     width: 45% !important;
 }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .success-story-img{
+        height: 80% !important;
+        width: 80% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .single-btn-project{
+        width: 100% !important;
+    }
+}
+
 .success-story-header, .success-story-disc, .about-header, .service-title{
     padding-bottom: 10px !important;
 }
+
 .success-story-header, .about-header{
     color: #f28f0d;
     font-size: 32px !important;
@@ -930,7 +989,22 @@ i{
     font-size: 35px !important;
 }
 
-
+/* Social media */
+.social-media{
+    display: flex;
+    gap: 15px;
+}
+.social-media-icons{
+    padding: 20px !important;
+    font-size: 35px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    color: #f28f0d;
+    transition: color 0.3s;
+}
+.social-media-icons:hover{
+    color: #ccb08f;
+}
 
 /* End Footer */
 
