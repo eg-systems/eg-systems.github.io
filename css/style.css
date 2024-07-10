@@ -843,17 +843,18 @@ body{
     max-width: 70%;
     height: 100%;
 }
+
+.tech-web-img{
+    max-width: 50%;
+    height: 100%;
+}
+
 i{
    font-size: 70px !important;
 }
 
-.video-edit{
+.video-edit, .mobile-edit, .web-edit {
     font-size: 150px !important;
-}
-
-.tech-panner{
-    width: 50% !important;
-    height: 250px !important;
 }
 
 .flutter-img, .kotlin-img{
@@ -877,7 +878,7 @@ i{
     font-size: 17px !important;
 }
 @media (max-width: 900px) {
-    .tech-img {
+    .tech-img, .tech-web-img {
         max-width: 37%;
         height: 100%;
     }
@@ -888,7 +889,7 @@ i{
 
 
 @media (max-width: 400px) {
-    .tech-img {
+    .tech-img, .tech-web-img {
         max-width: 50%;
         height: 100%;
     }
