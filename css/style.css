@@ -72,7 +72,6 @@ body{
 .mobile-icon{
     margin-right: 22px !important;
 }
-
 .video-icon{
     margin-right: 13px !important;
 }
@@ -86,6 +85,10 @@ body{
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #f28f0d;
+}
+
+.ui-icon{
+    margin-right: 15px !important;
 }
 /* End Navbar */
 
