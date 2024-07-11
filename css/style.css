@@ -257,6 +257,10 @@ hr{
     height: 100%;
     text-align: center;
 }
+.Servies-anchor{
+    text-decoration: none;
+    display: contents !important;;
+}
 .services-disc{
     color: #ccb08f;
 }
