@@ -85,26 +85,27 @@
                     <p class="contact-info"><i class="fa-solid fa-location-dot contact-location-icons" style="color: #f28f0d;"></i> <span class="contact-txt"> Alexandria, Egypt</span></p>
                 </div>
                 <div class="form-col">
-                    <form>
+                    <form action="https://formspree.io/f/mnnanjko" method="POST">
                         <div class="mb-4">
                             <label for="name" class="form-label contact-txt">Your Name</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="name">
+                            <input type="text" class="form-control" id="name" name="name" aria-describedby="name" required>
                         </div>
                         <div class="mb-4">
                             <label for="exampleInputEmail1" class="form-label contact-txt">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-4">
                             <label for="phoneNumber" class="form-label contact-txt">Phone Number</label>
-                            <input type="phone" class="form-control" id="phoneNumber">
+                            <input type="phone" class="form-control" id="phoneNumber" name="phone">
                         </div>
                         <div class="mb-4">
                             <label class="form-label contact-txt" for="textArea">Enter Your Message</label>
-                            <textarea class="form-control" id="textArea" rows="3"></textarea>
+                            <textarea class="form-control" id="textArea" name="message" rows="3" required></textarea>
                         </div>
                         <button type="submit" class="submit-btn w-100">Submit</button>
                     </form>
                 </div>
+                
             </div>
         </div>
     </section>
