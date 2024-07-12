@@ -1079,6 +1079,14 @@ i{
     font-size: 35px !important;
 }
 
+.mailto{
+    color: white; 
+    text-decoration: none;
+}
+.mailto-contact{
+    color: #ccb08f; 
+    text-decoration: none;
+}
 /* Social media */
 .social-media{
     display: flex;
