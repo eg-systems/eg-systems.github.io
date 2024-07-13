@@ -913,7 +913,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 180%;
+    height: 100%;
     color: white;
     text-align: center;
 }
