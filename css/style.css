@@ -432,6 +432,11 @@ hr{
     padding: 10px !important;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
+.pro-title{
+    text-decoration: none;
+}
+
 .project-btn{
     background-color: #f28f0d;
     color: #fff;
@@ -913,7 +918,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 180%;
+    height: 100%;
     color: white;
     text-align: center;
 }
