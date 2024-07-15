@@ -225,7 +225,7 @@ hr{
     }
 
     .content-overlay p {
-        font-size: 16px;
+        font-size: 14px;
     }
     .btn-custom {
         background-color: #f28f0d;
@@ -237,6 +237,7 @@ hr{
         display: inline-block;
         position: relative;
         margin-top: -10px;
+        font-size: 16px;
     }
     .img-fluid {
         margin-top: 40px;
