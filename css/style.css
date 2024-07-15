@@ -8,21 +8,10 @@ body{
     background-color: #241c0f;
     border-bottom: 1px solid #e28b00;
 }
-.offcanvas-header .btn-close {
-    filter: invert(1) brightness(1); 
-}
-#bg{
-    background-color: #f28f0d !important;
-}
-.offcanvas-body, .offcanvas-header {
-    background-color: #241c0f;
-}
-.offcanvas-body{
-    color: white;
-}
+
 .nav-item .nav-link{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 .dropdown-menu .dropdown-item{
     background-color: #241c0f;
@@ -38,7 +27,6 @@ body{
     --bs-dropdown-border-color: black;
 
 }
-
 
 .dropdown-menu .dropdown-item:hover{
     background-color: #f28f0d;
@@ -59,37 +47,21 @@ body{
         height: 50px;
     }
 }
-.home-icons {
-    font-size: 25px !important;
-    margin-right: 10px;
-}
-.home-icon{
-    margin-right: 12px !important;
-}
-.about-icon{
-    margin-right: 15px !important;
-}
-.mobile-icon{
-    margin-right: 22px !important;
-}
-.video-icon{
-    margin-right: 13px !important;
-}
-.digital-icon{
-    margin-right: 15px !important;
-}
 
-.success-icon{
-    font-size: 30px !important;
-    margin-right: 15px !important;
-}
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #f28f0d;
 }
 
-.ui-icon{
-    margin-right: 15px !important;
+.navbar-brand {
+    margin-right: -17px;
 }
+
+.navbar-toggler{
+    font-size: 20px;
+    background-color: #f28f0d;
+}
+
+
 /* End Navbar */
 
 /* Start Edit hr */
@@ -237,6 +209,9 @@ hr{
         display: inline-block;
         position: relative;
         margin-top: -10px;
+        font-size: 16px;
+    }
+    .btn-custom:hover {
         font-size: 16px;
     }
     .img-fluid {
